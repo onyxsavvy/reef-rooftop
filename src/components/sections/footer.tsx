@@ -1,4 +1,5 @@
 import { businessInfo } from "@/content";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
           
           <div className="max-w-xs">
             <div className="mb-6">
-              <img src="/images/logo.png?v=3" alt={businessInfo.name} className="h-20 w-auto object-contain" />
+              <Image src="/images/logo.png" alt={businessInfo.name} width={200} height={80} className="h-20 w-auto object-contain" />
             </div>
             <p className="text-sm text-[var(--color-cream)]/60 leading-relaxed font-light mb-6">
               {businessInfo.location}

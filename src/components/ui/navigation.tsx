@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const links = [
   { name: "Experience", href: "#experience" },
@@ -65,7 +66,7 @@ export function Navigation() {
             onClick={(e) => scrollTo(e, "#home")}
             className="flex items-center"
           >
-            <img src="/images/logo.png?v=3" alt="The Reef Logo" className="h-14 w-auto object-contain" />
+            <Image src="/images/logo.png" alt="The Reef Logo" width={140} height={56} className="h-14 w-auto object-contain" />
           </a>
 
           {/* Desktop Nav */}
