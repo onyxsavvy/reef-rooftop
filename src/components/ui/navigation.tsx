@@ -63,9 +63,9 @@ export function Navigation() {
           <a
             href="#home"
             onClick={(e) => scrollTo(e, "#home")}
-            className="font-serif text-2xl font-bold tracking-tight text-[var(--color-cream)]"
+            className="flex items-center"
           >
-            The Reef
+            <img src="/images/logo.png" alt="The Reef Logo" className="h-10 w-auto object-contain" />
           </a>
 
           {/* Desktop Nav */}
