@@ -65,7 +65,7 @@ export function Navigation() {
             onClick={(e) => scrollTo(e, "#home")}
             className="flex items-center"
           >
-            <img src="/images/logo.png" alt="The Reef Logo" className="h-10 w-auto object-contain" />
+            <img src="/images/logo.png?v=3" alt="The Reef Logo" className="h-14 w-auto object-contain" />
           </a>
 
           {/* Desktop Nav */}
